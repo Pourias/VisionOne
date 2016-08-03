@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D410FAC73FBCFA782C3C107 /* Pods_Vision_OneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FB6DE0965DD68595966DD3 /* Pods_Vision_OneTests.framework */; };
+		96FC0B3B1D52560800A905E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC0B3A1D52560800A905E9 /* AppDelegate.swift */; };
+		96FC0B431D52560800A905E9 /* Vision_One.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96FC0B411D52560800A905E9 /* Vision_One.xcdatamodeld */; };
+		96FC0B451D52560800A905E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FC0B441D52560800A905E9 /* Assets.xcassets */; };
+		96FC0B481D52560800A905E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FC0B461D52560800A905E9 /* LaunchScreen.storyboard */; };
+		96FC0B531D52560800A905E9 /* Vision_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC0B521D52560800A905E9 /* Vision_OneTests.swift */; };
+		96FC0B5E1D52560800A905E9 /* Vision_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC0B5D1D52560800A905E9 /* Vision_OneUITests.swift */; };
+		96FC0B6C1D52571B00A905E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FC0B6B1D52571B00A905E9 /* Main.storyboard */; };
+		96FC0B6D1D52571B00A905E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FC0B6B1D52571B00A905E9 /* Main.storyboard */; };
+		96FC0B6E1D52571B00A905E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FC0B6B1D52571B00A905E9 /* Main.storyboard */; };
+		96FC0B701D52572A00A905E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC0B6F1D52572A00A905E9 /* ViewController.swift */; };
+		96FC0B711D52572A00A905E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC0B6F1D52572A00A905E9 /* ViewController.swift */; };
+		96FC0B721D52572A00A905E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC0B6F1D52572A00A905E9 /* ViewController.swift */; };
+		C669BD6D720F78669D52F3BA /* Pods_Vision_One.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45546739179D6674A1E932DB /* Pods_Vision_One.framework */; };
+		D9B2938E84854F76A0CE8609 /* Pods_Vision_OneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE0395BFEEFE37C08916825 /* Pods_Vision_OneUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96FC0B4F1D52560800A905E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FC0B2F1D52560800A905E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FC0B361D52560800A905E9;
+			remoteInfo = "Vision One";
+		};
+		96FC0B5A1D52560800A905E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FC0B2F1D52560800A905E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FC0B361D52560800A905E9;
+			remoteInfo = "Vision One";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		387F8468533FA0BBB7ADF5B5 /* Pods-Vision One.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vision One.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vision One/Pods-Vision One.debug.xcconfig"; sourceTree = "<group>"; };
+		4484255A893DC9D537E7287F /* Pods-Vision OneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vision OneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vision OneUITests/Pods-Vision OneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45546739179D6674A1E932DB /* Pods_Vision_One.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vision_One.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AE3585112E546FB1902545 /* Pods-Vision One.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vision One.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vision One/Pods-Vision One.release.xcconfig"; sourceTree = "<group>"; };
+		57CF4DE437AC682713D1D6CB /* Pods-Vision OneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vision OneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vision OneTests/Pods-Vision OneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58FB6DE0965DD68595966DD3 /* Pods_Vision_OneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vision_OneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8FCE44AD297B9E2812E851 /* Pods-Vision OneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vision OneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vision OneUITests/Pods-Vision OneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96FC0B371D52560800A905E9 /* Vision One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vision One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FC0B3A1D52560800A905E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96FC0B421D52560800A905E9 /* Vision_One.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vision_One.xcdatamodel; sourceTree = "<group>"; };
+		96FC0B441D52560800A905E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96FC0B471D52560800A905E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96FC0B491D52560800A905E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FC0B4E1D52560800A905E9 /* Vision OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vision OneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FC0B521D52560800A905E9 /* Vision_OneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision_OneTests.swift; sourceTree = "<group>"; };
+		96FC0B541D52560800A905E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FC0B591D52560800A905E9 /* Vision OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vision OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FC0B5D1D52560800A905E9 /* Vision_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision_OneUITests.swift; sourceTree = "<group>"; };
+		96FC0B5F1D52560800A905E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FC0B6B1D52571B00A905E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		96FC0B6F1D52572A00A905E9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FE0395BFEEFE37C08916825 /* Pods_Vision_OneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vision_OneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA8B23E8B8653EC1D23EAEE /* Pods-Vision OneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vision OneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vision OneTests/Pods-Vision OneTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FC0B341D52560800A905E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C669BD6D720F78669D52F3BA /* Pods_Vision_One.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC0B4B1D52560800A905E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D410FAC73FBCFA782C3C107 /* Pods_Vision_OneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC0B561D52560800A905E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B2938E84854F76A0CE8609 /* Pods_Vision_OneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96FC0B2E1D52560800A905E9 = {
+			isa = PBXGroup;
+			children = (
+				96FC0B391D52560800A905E9 /* Vision One */,
+				96FC0B511D52560800A905E9 /* Vision OneTests */,
+				96FC0B5C1D52560800A905E9 /* Vision OneUITests */,
+				96FC0B381D52560800A905E9 /* Products */,
+				E5F1DD674754307AE3198DA6 /* Pods */,
+				C8A879E0FFB9C0A670848383 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96FC0B381D52560800A905E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FC0B371D52560800A905E9 /* Vision One.app */,
+				96FC0B4E1D52560800A905E9 /* Vision OneTests.xctest */,
+				96FC0B591D52560800A905E9 /* Vision OneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FC0B391D52560800A905E9 /* Vision One */ = {
+			isa = PBXGroup;
+			children = (
+				96FC0B3A1D52560800A905E9 /* AppDelegate.swift */,
+				96FC0B6F1D52572A00A905E9 /* ViewController.swift */,
+				96FC0B6B1D52571B00A905E9 /* Main.storyboard */,
+				96FC0B441D52560800A905E9 /* Assets.xcassets */,
+				96FC0B461D52560800A905E9 /* LaunchScreen.storyboard */,
+				96FC0B491D52560800A905E9 /* Info.plist */,
+				96FC0B411D52560800A905E9 /* Vision_One.xcdatamodeld */,
+			);
+			path = "Vision One";
+			sourceTree = "<group>";
+		};
+		96FC0B511D52560800A905E9 /* Vision OneTests */ = {
+			isa = PBXGroup;
+			children = (
+				96FC0B521D52560800A905E9 /* Vision_OneTests.swift */,
+				96FC0B541D52560800A905E9 /* Info.plist */,
+			);
+			path = "Vision OneTests";
+			sourceTree = "<group>";
+		};
+		96FC0B5C1D52560800A905E9 /* Vision OneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96FC0B5D1D52560800A905E9 /* Vision_OneUITests.swift */,
+				96FC0B5F1D52560800A905E9 /* Info.plist */,
+			);
+			path = "Vision OneUITests";
+			sourceTree = "<group>";
+		};
+		C8A879E0FFB9C0A670848383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45546739179D6674A1E932DB /* Pods_Vision_One.framework */,
+				58FB6DE0965DD68595966DD3 /* Pods_Vision_OneTests.framework */,
+				9FE0395BFEEFE37C08916825 /* Pods_Vision_OneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5F1DD674754307AE3198DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				387F8468533FA0BBB7ADF5B5 /* Pods-Vision One.debug.xcconfig */,
+				50AE3585112E546FB1902545 /* Pods-Vision One.release.xcconfig */,
+				57CF4DE437AC682713D1D6CB /* Pods-Vision OneTests.debug.xcconfig */,
+				FDA8B23E8B8653EC1D23EAEE /* Pods-Vision OneTests.release.xcconfig */,
+				4484255A893DC9D537E7287F /* Pods-Vision OneUITests.debug.xcconfig */,
+				8C8FCE44AD297B9E2812E851 /* Pods-Vision OneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FC0B361D52560800A905E9 /* Vision One */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FC0B621D52560800A905E9 /* Build configuration list for PBXNativeTarget "Vision One" */;
+			buildPhases = (
+				2B3A1068123106BB002BA019 /* [CP] Check Pods Manifest.lock */,
+				96FC0B331D52560800A905E9 /* Sources */,
+				96FC0B341D52560800A905E9 /* Frameworks */,
+				96FC0B351D52560800A905E9 /* Resources */,
+				C0E320807462B58FA777B0DB /* [CP] Embed Pods Frameworks */,
+				43B4F41429BADF0523B49D3F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vision One";
+			productName = "Vision One";
+			productReference = 96FC0B371D52560800A905E9 /* Vision One.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96FC0B4D1D52560800A905E9 /* Vision OneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FC0B651D52560800A905E9 /* Build configuration list for PBXNativeTarget "Vision OneTests" */;
+			buildPhases = (
+				46EC17EFCAF032399ED6D966 /* [CP] Check Pods Manifest.lock */,
+				96FC0B4A1D52560800A905E9 /* Sources */,
+				96FC0B4B1D52560800A905E9 /* Frameworks */,
+				96FC0B4C1D52560800A905E9 /* Resources */,
+				15EBA7321335322A42A94356 /* [CP] Embed Pods Frameworks */,
+				AE61385E775E5DCD723A4A00 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FC0B501D52560800A905E9 /* PBXTargetDependency */,
+			);
+			name = "Vision OneTests";
+			productName = "Vision OneTests";
+			productReference = 96FC0B4E1D52560800A905E9 /* Vision OneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96FC0B581D52560800A905E9 /* Vision OneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FC0B681D52560800A905E9 /* Build configuration list for PBXNativeTarget "Vision OneUITests" */;
+			buildPhases = (
+				0717A989741983395E7850B7 /* [CP] Check Pods Manifest.lock */,
+				96FC0B551D52560800A905E9 /* Sources */,
+				96FC0B561D52560800A905E9 /* Frameworks */,
+				96FC0B571D52560800A905E9 /* Resources */,
+				7FEEEC9722BC5197822028DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FC0B5B1D52560800A905E9 /* PBXTargetDependency */,
+			);
+			name = "Vision OneUITests";
+			productName = "Vision OneUITests";
+			productReference = 96FC0B591D52560800A905E9 /* Vision OneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FC0B2F1D52560800A905E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pouria Sanae";
+				TargetAttributes = {
+					96FC0B361D52560800A905E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9QWXY5XD4G;
+					};
+					96FC0B4D1D52560800A905E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9QWXY5XD4G;
+						TestTargetID = 96FC0B361D52560800A905E9;
+					};
+					96FC0B581D52560800A905E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9QWXY5XD4G;
+						TestTargetID = 96FC0B361D52560800A905E9;
+					};
+				};
+			};
+			buildConfigurationList = 96FC0B321D52560800A905E9 /* Build configuration list for PBXProject "Vision One" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96FC0B2E1D52560800A905E9;
+			productRefGroup = 96FC0B381D52560800A905E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FC0B361D52560800A905E9 /* Vision One */,
+				96FC0B4D1D52560800A905E9 /* Vision OneTests */,
+				96FC0B581D52560800A905E9 /* Vision OneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FC0B351D52560800A905E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC0B6C1D52571B00A905E9 /* Main.storyboard in Resources */,
+				96FC0B481D52560800A905E9 /* LaunchScreen.storyboard in Resources */,
+				96FC0B451D52560800A905E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC0B4C1D52560800A905E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC0B6D1D52571B00A905E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC0B571D52560800A905E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC0B6E1D52571B00A905E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0717A989741983395E7850B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15EBA7321335322A42A94356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vision OneTests/Pods-Vision OneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B3A1068123106BB002BA019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43B4F41429BADF0523B49D3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vision One/Pods-Vision One-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46EC17EFCAF032399ED6D966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FEEEC9722BC5197822028DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vision OneUITests/Pods-Vision OneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE61385E775E5DCD723A4A00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vision OneTests/Pods-Vision OneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E320807462B58FA777B0DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vision One/Pods-Vision One-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FC0B331D52560800A905E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC0B701D52572A00A905E9 /* ViewController.swift in Sources */,
+				96FC0B431D52560800A905E9 /* Vision_One.xcdatamodeld in Sources */,
+				96FC0B3B1D52560800A905E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC0B4A1D52560800A905E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC0B711D52572A00A905E9 /* ViewController.swift in Sources */,
+				96FC0B531D52560800A905E9 /* Vision_OneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC0B551D52560800A905E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC0B721D52572A00A905E9 /* ViewController.swift in Sources */,
+				96FC0B5E1D52560800A905E9 /* Vision_OneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96FC0B501D52560800A905E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FC0B361D52560800A905E9 /* Vision One */;
+			targetProxy = 96FC0B4F1D52560800A905E9 /* PBXContainerItemProxy */;
+		};
+		96FC0B5B1D52560800A905E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FC0B361D52560800A905E9 /* Vision One */;
+			targetProxy = 96FC0B5A1D52560800A905E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96FC0B461D52560800A905E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FC0B471D52560800A905E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96FC0B601D52560800A905E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96FC0B611D52560800A905E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96FC0B631D52560800A905E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387F8468533FA0BBB7ADF5B5 /* Pods-Vision One.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vision One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helpereye.Vision-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96FC0B641D52560800A905E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AE3585112E546FB1902545 /* Pods-Vision One.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vision One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helpereye.Vision-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96FC0B661D52560800A905E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CF4DE437AC682713D1D6CB /* Pods-Vision OneTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vision OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helpereye.Vision-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vision One.app/Vision One";
+			};
+			name = Debug;
+		};
+		96FC0B671D52560800A905E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA8B23E8B8653EC1D23EAEE /* Pods-Vision OneTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vision OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helpereye.Vision-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vision One.app/Vision One";
+			};
+			name = Release;
+		};
+		96FC0B691D52560800A905E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4484255A893DC9D537E7287F /* Pods-Vision OneUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Vision OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helpereye.Vision-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vision One";
+			};
+			name = Debug;
+		};
+		96FC0B6A1D52560800A905E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8FCE44AD297B9E2812E851 /* Pods-Vision OneUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Vision OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helpereye.Vision-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vision One";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FC0B321D52560800A905E9 /* Build configuration list for PBXProject "Vision One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FC0B601D52560800A905E9 /* Debug */,
+				96FC0B611D52560800A905E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FC0B621D52560800A905E9 /* Build configuration list for PBXNativeTarget "Vision One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FC0B631D52560800A905E9 /* Debug */,
+				96FC0B641D52560800A905E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FC0B651D52560800A905E9 /* Build configuration list for PBXNativeTarget "Vision OneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FC0B661D52560800A905E9 /* Debug */,
+				96FC0B671D52560800A905E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FC0B681D52560800A905E9 /* Build configuration list for PBXNativeTarget "Vision OneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FC0B691D52560800A905E9 /* Debug */,
+				96FC0B6A1D52560800A905E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96FC0B411D52560800A905E9 /* Vision_One.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96FC0B421D52560800A905E9 /* Vision_One.xcdatamodel */,
+			);
+			currentVersion = 96FC0B421D52560800A905E9 /* Vision_One.xcdatamodel */;
+			path = Vision_One.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96FC0B2F1D52560800A905E9 /* Project object */;
+}
