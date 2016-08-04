@@ -87,7 +87,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         //AVCaptureSessionPresetHigh //AVCaptureSessionPreset352x288 //AVCaptureSessionPreset640x480
         //AVCaptureSessionPresetiFrame960x540 //AVCaptureSessionPreset1280x720
         captureSession = AVCaptureSession()
-        captureSession!.sessionPreset = AVCaptureSessionPreset640x480
+        captureSession!.sessionPreset = AVCaptureSessionPreset1280x720 //changed on Aug 3 AVCaptureSessionPreset640x480
         let backCamera = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo) //Select camer, defaul=rear-camera
         do {
             let input = try AVCaptureDeviceInput(device: backCamera)
@@ -404,7 +404,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
         // Serialize the JSON
         request.HTTPBody = try! NSJSONSerialization.dataWithJSONObject(jsonRequest, options: [])
-        
+      
         // Run the request on a background thread
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
             self.runRequestOnBackgroundThread(request)
@@ -413,8 +413,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     func runRequestOnBackgroundThread(request: NSMutableURLRequest) {
         let session = NSURLSession.sharedSession()
+        
         // run the request
         let task = session.dataTaskWithRequest(request, completionHandler: {data, response, error -> Void in
+            print(".......................................")
+            print(response)
+            print(error)
+           
             self.analyzeResults(data!)
         })
         task.resume()
@@ -460,7 +465,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                     var face_headwear_text = ""
                     for index in 0..<numPeopleDetected {
                         let personData:JSON = faceAnnotations[index]
-                        
+  
                         //Get face position
                         let faceLandmarks = personData["landmarks"]
                         let faceLandmarksCounts:Int = faceLandmarks.count
